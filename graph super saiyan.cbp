@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="graph super saiyan" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/graph super saiyan" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/graph super saiyan" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../findpath_BFS_vohuong.cpp" />
+		<Unit filename="Area.cpp" />
+		<Unit filename="BFS_tren_graph_cohuong.cpp" />
+		<Unit filename="BFS_tren_graph_vohuong.cpp" />
+		<Unit filename="DFS_tren_graph_cohuong.cpp" />
+		<Unit filename="DFS_tren_graph_vohuong.cpp" />
+		<Unit filename="build_path.cpp" />
+		<Unit filename="canh_cau.cpp" />
+		<Unit filename="check path.cpp" />
+		<Unit filename="check_tree.cpp" />
+		<Unit filename="chu_trinh_tren_do_thi_co_huong.cpp" />
+		<Unit filename="chu_trinh_tren_do_thi_vo_huong.cpp" />
+		<Unit filename="count_lienthong.cpp" />
+		<Unit filename="count_room.cpp" />
+		<Unit filename="dinh_tru.cpp" />
+		<Unit filename="find_captain.cpp" />
+		<Unit filename="findpath_BFS_cohuong.cpp" />
+		<Unit filename="findpath_DFS_cohuong.cpp" />
+		<Unit filename="findpath_DFS_vohuong.cpp" />
+		<Unit filename="graph_friendzone.cpp" />
+		<Unit filename="lien_thong_manh.cpp" />
+		<Unit filename="social media.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
